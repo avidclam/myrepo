@@ -1,0 +1,8 @@
+model: openai/anthropic/claude-sonnet-4-5
+cache-prompts: true
+auto-commits: false
+auto-test: true
+test-cmd: pytest tests/ -x
+read:
+  - CONVENTIONS.md
+  - README.md
