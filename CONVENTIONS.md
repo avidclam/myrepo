@@ -2,6 +2,9 @@
 - Python 3.11+
 - PEP8 formatting
 - Type hints on all public functions
+- Use built-in types for type hints (e.g. `list`, `dict`, `tuple`, `set`)
+- Use `X | Y` union syntax, never `Optional[X]` or `Union[X, Y]`
+- Never import from `typing` unless absolutely necessary (e.g. `Protocol`, `TypeVar`)
 - Google-style docstrings for public APIs
 - No unused imports or variables
 - No wildcard imports

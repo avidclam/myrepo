@@ -1,4 +1,4 @@
-model: openrouter/anthropic/claude-sonnet-4-5
+model: openrouter/anthropic/claude-sonnet-4.5
 cache-prompts: true
 auto-commits: false
 auto-test: true
